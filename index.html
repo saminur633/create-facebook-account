@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1></h1>
+        
+    </header>
+    <main>
+        <section class="bg-emerald-100 w-9/12 mx-auto mt-12 p-8">
+            <h1 class="text-3xl mb-4 font-medium ">What's your Name?</h1>
+            <p>Enter the name you use in real life</p>
+         <div>
+                 <input class="w-9/12 block px-3 mb-2 mt-2 " type="text" name="" id="user-email" placeholder="First Name">
+                <input class="w-9/12 block px-3 mb-2 " type="password" name="" id="user-password" placeholder="Last Name">
+                <button id="btn-submit" class="bg-amber-600 hover:bg-sky-700 px-8 py-2 rounded-lg text-white font-medium ">Next</button>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+    <script type="text/javascript">
+        document.getElementById("btn-submit").onclick = function () {
+            location.href = "birthday.html";
+        };
+    </script>
+    
+    
+    <script src="js/login.js"></script>
+</body>
+</html>
